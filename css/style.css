@@ -1,0 +1,29 @@
+.go-top-btn{
+  position: fixed;  
+  bottom: 35px;
+  right: 35px;
+  border-radius: 100%;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  background: rgba(255, 255, 255, 0);
+  border: 3px solid #333;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+@media (min-width: 500px) {
+  .go-top-btn{
+      display: none;
+  }
+}
+
+nav{
+  z-index: 1;
+}
+
+#img-vid{
+  border: 10px solid #ffc107;
+}
