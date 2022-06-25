@@ -1,3 +1,8 @@
+html{
+  scroll-behavior: smooth;
+  scroll-padding: var(--scroll-padding, 150px);
+}
+
 .go-top-btn{
   position: fixed;  
   bottom: 35px;

@@ -1,3 +1,11 @@
+// navigation
+
+$('.navbar-collapse a').click(function(){
+    $(".navbar-collapse").collapse('hide');
+});
+
+// go to top btn
+
 const goTopBtn = document.querySelector('.go-top-btn');
 
 window.addEventListener('scroll', checkHeight)
@@ -18,5 +26,12 @@ goTopBtn.addEventListener('click', ()=> {
 })
 
 
+
+// scroll behavior 
+ const navigationHeight = document.querySelector('.navbar').offsetHeight;
+
+// console.log(navigationHeight);
+
+document.documentElement.style.setProperty('--scroll-padding', navigationHeight -1 + "px");
 
 
