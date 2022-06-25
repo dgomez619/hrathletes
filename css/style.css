@@ -32,3 +32,7 @@ nav{
 #img-vid{
   border: 10px solid #ffc107;
 }
+
+.card{
+  text-align: center;
+}
